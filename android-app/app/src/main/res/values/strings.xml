@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">E-Learning App</string>
+
+    <string-array name="branch">
+        <item>Select Your Branch</item>
+        <item>Computer Engineering</item>
+        <item>Information Technology</item>
+        <item>Electronics and Telecommunication</item>
+        <item>Electrical Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="semester">
+
+        <item>Select Your Sem</item>
+        <item>First Sem</item>
+        <item>Second Sem</item>
+        <item>Third Sem</item>
+        <item>Fourth Sem</item>
+        <item>Fifth Sem</item>
+        <item>Sixth Sem</item>
+
+    </string-array>
+
+    <string-array name="select_the_exam">
+
+        <item>Select Your Exam</item>
+        <item>Winter 2023</item>
+        <item>Summer 2023</item>
+        <item>Winter 2022</item>
+        <item>Summer 2022</item>
+        <item>Winter 2021</item>
+        <item>Summer 2021</item>
+        <item>Winter 2020</item>
+        <item>Summer 2020</item>
+        <item>Winter 2019</item>
+        <item>Summer 2019</item>
+
+    </string-array>
+
+</resources>

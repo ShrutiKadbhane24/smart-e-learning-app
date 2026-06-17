@@ -1,0 +1,19 @@
+# ---- Android (android-app/) ----
+android-app/*.iml
+android-app/.gradle/
+android-app/.idea/
+android-app/local.properties
+android-app/.DS_Store
+android-app/build/
+android-app/app/build/
+android-app/captures/
+android-app/.externalNativeBuild/
+android-app/.cxx/
+android-app/*.apk
+
+# ---- PHP / Backend (backend-api/) ----
+backend-api/**/.DS_Store
+
+# ---- General ----
+*.log
+.DS_Store

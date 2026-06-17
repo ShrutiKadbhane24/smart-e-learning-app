@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".HomeWork.HomeWorkActivity"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_quiz_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Welcome to E-Learning Quiz Activity"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_quiz_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Who is the father of C language?"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/lv_rg_quiz_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) Steve Jobs"
+
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) James Gosling"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) Dennis Ritchie"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) Rasmus Lerdorf"
+                android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_quiz_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text=" Which of the following is not a valid C variable name?"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/lv_rg_quiz_21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) int number;"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) float rate;"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) int variable_count;"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) int $main;"
+                android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_quiz_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text=" All keywords in C are in ____________"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/lv_rg_quiz_31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) LowerCase letters"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) UpperCase letters"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) CamelCase letters"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) None of the mentioned"
+                android:textColor="@color/black" />
+
+    </RadioGroup>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_quiz_question4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="  Which of the following cannot be a variable name in C?"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/lv_rg_quiz_41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) volatile"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) true"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) friend"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) export"
+                android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_quiz_question5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text=" What is the result of logical or relational expression in C?"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/lv_rg_quiz_51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a) True or False"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b) 0 or 1"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c) 0 if an expression is false and any positive number if an expression is true"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/lv_rb_quiz_option55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="d) None of the mentioned"
+                android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_quiz_submit"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/bungee"
+        android:background="@drawable/btn_bg_shape"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="btn_continue"/>
+
+
+    <!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/lv_quiz" />-->
+
+<!--    <ProgressBar-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:id="@+id/progressBar"-->
+<!--        android:visibility="gone"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="No Records"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:visibility="gone"-->
+<!--        android:id="@+id/tv_no_records"/>-->
+
+    </LinearLayout>
+
+</ScrollView>
